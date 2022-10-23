@@ -34,7 +34,7 @@ INSERT INTO `genders` (`name`) VALUES ('м'), ('ж');
 /* награды */
 CREATE TABLE `rewards` (
     `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    `name` VARCHAR(64) NOT NULL UNIQUE
+    `name` VARCHAR(255) NOT NULL UNIQUE
 );
 
 
