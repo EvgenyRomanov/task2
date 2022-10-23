@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7d64208dd48b26bbe40d77939a13e3a5",
+    "packages": [
+        {
+            "name": "sbwerewolf/language-specific",
+            "version": "8.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/language-specific.git",
+                "reference": "0122e1f73b95eb45af70b6c302b08b1fd55f75a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/language-specific/zipball/0122e1f73b95eb45af70b6c302b08b1fd55f75a9",
+                "reference": "0122e1f73b95eb45af70b6c302b08b1fd55f75a9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=8.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.4",
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Library for using PHP specific features",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/language-specific/issues",
+                "source": "https://github.com/SbWereWolf/language-specific/tree/8.0.0"
+            },
+            "time": "2021-12-31T22:54:33+00:00"
+        },
+        {
+            "name": "sbwerewolf/xml-navigator",
+            "version": "v2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SbWereWolf/xml-navigator.git",
+                "reference": "9419555157cf1795b6e6a1301debc8562de68940"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SbWereWolf/xml-navigator/zipball/9419555157cf1795b6e6a1301debc8562de68940",
+                "reference": "9419555157cf1795b6e6a1301debc8562de68940",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "sbwerewolf/language-specific": "^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Nikolay Volkhin",
+                    "email": "ulfnew@gmail.com"
+                }
+            ],
+            "description": "Library for navigation through xml",
+            "support": {
+                "issues": "https://github.com/SbWereWolf/xml-navigator/issues",
+                "source": "https://github.com/SbWereWolf/xml-navigator/tree/v2.1.2"
+            },
+            "time": "2022-05-24T12:24:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

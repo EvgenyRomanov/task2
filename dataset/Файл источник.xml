@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+	<User Name="Петров Владимир Ильич" >
+		<Pets>
+			<Pet Code="001" Type="Собака" Gender="м" Age="3" >
+				<Nickname Value="Бобик" />
+				<Breed Name="Йоркширский терьер" />
+				<Rewards>
+					<Reward Name="Золотая медаль выставки №2" />
+				</Rewards>
+			</Pet>
+			<Pet Code="002" Type="Собака" Gender="м" Age="1" >
+				<Nickname Value="Джон" />
+				<Breed Name="Йоркширский терьер" />				
+			</Pet>
+		</Pets>
+	</User>
+	<User Name="Сидорова Мария Петровна" >
+		<Pets>			
+			<Pet Code="003" Type="Кот" Gender="м" Age="8" >
+				<Nickname Value="Барсик" />
+				<Breed Name="Персидская кошка" />				
+			</Pet>
+			<Pet Code="004" Type="Кот" Gender="ж" Age="2" >
+				<Nickname Value="Пуля" />
+				<Breed Name="Абиссинская кошка" />
+				<Parents>
+					<Parent Code="005" />
+				</Parents>
+			</Pet>
+			<Pet Code="005" Type="Кот" Gender="ж" Age="4" >
+				<Nickname Value="Лапуля" />
+				<Breed Name="Абиссинская кошка" />				
+			</Pet>
+			<Pet Code="006" Type="Кот" Gender="m" Age="1" >
+				<Nickname Value="Феликс" />
+				<Breed Name="Сибирская кошка" />				
+			</Pet>
+		</Pets>
+	</User>
+	<User Name="Ромашкин Андрей Петрович" >
+		<Pets>			
+			<Pet Code="007" Type="Змея" Gender="ж" Age="1" >
+				<Nickname Value="Вэя" />
+				<Breed Name="Радужный удав" />
+				<Parents>
+					<Parent Code="008" />
+					<Parent Code="009" />
+				</Parents>
+			</Pet>
+			<Pet Code="008" Type="Змея" Gender="ж" Age="2" >
+				<Nickname Value="Корра" />
+				<Breed Name="Радужный удав" />				
+			</Pet>
+			<Pet Code="009" Type="Змея" Gender="m" Age="3.5" >
+				<Nickname Value="Долгоносик" />
+				<Breed Name="Радужный удав" />				
+			</Pet>
+		</Pets>
+	</User>
+	<User Name="Михненко Ирина Сергеевна" >
+		<Pets>			
+			<Pet Code="010" Type="Собака" Gender="м" Age="16" >
+				<Nickname Value="Пискля" />
+				<Breed Name="Чихуахуа" />
+				<Rewards>
+					<Reward Name="Лучший друг 2000 года" />
+					<Reward Name="Выставка собак №56" />
+					<Reward Name="Благодарность за активное участие в жизне клуба" />					
+				</Rewards>				
+			</Pet>			
+		</Pets>
+	</User>
+</Users>

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "sbwerewolf/xml-navigator": "^2.1"
+    }
+}

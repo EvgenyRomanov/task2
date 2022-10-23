@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Users>
+	<User Name="Петров Владимир Ильич" >
+		<Pets>
+			<Pet Code="001" Type="Собака" Gender="м" Age="3" >
+				<Nickname Value="Бобик" />
+				<Breed Name="Йоркширский терьер" />
+				<Rewards>
+					<Reward Name="Золотая медаль выставки №2" />
+				</Rewards>
+			</Pet>
+			<Pet Code="002" Type="Собака" Gender="м" Age="1" >
+				<Nickname Value="Джон" />
+				<Breed Name="Йоркширский терьер" />				
+			</Pet>
+		</Pets>
+	</User>
+</Users>
